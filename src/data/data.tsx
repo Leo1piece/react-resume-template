@@ -217,6 +217,38 @@ export const portfolioItems: PortfolioItem[] = [
 
 ];
 
+
+/**
+ *  Meetup section
+ */
+export const meetupItems: PortfolioItem[] = [
+  {
+    title: 'Project title 1',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage1,
+  },
+  {
+    title: 'Project title 2',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Project title 3',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage3,
+  },
+  {
+    title: 'Project title 4',
+    description: 'Give a short description of your project here.',
+    url: 'https://reactresume.com',
+    image: porfolioImage4,
+  },
+
+];
+
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
