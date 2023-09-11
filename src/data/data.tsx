@@ -18,6 +18,10 @@ import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import meetupImage1 from '../images/portfolio/portfolio-2.jpg';
+import meetupImage2 from '../images/portfolio/portfolio-2.jpg';
+import meetupImage3 from '../images/portfolio/portfolio-2.jpg';
+import meetupImage4 from '../images/portfolio/portfolio-2.jpg';
 
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
@@ -225,26 +229,26 @@ export const meetupItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
+    url: '',
+    image: meetupImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
+    url: '',
+    image: meetupImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
+    url: '',
+    image: meetupImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
+    url: '',
+    image: meetupImage4,
   },
 
 ];

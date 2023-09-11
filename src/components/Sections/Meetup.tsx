@@ -51,15 +51,15 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
   }, []);
   useDetectOutsideClick(linkRef, () => setShowOverlay(false));
 
-  const handleItemClick = useCallback(
-    (event: MouseEvent<HTMLElement>) => {
-      if (mobile && !showOverlay) {
-        event.preventDefault();
-        setShowOverlay(!showOverlay);
-      }
-    },
-    [mobile, showOverlay],
-  );
+  // const handleItemClick = useCallback(
+  //   (event: MouseEvent<HTMLElement>) => {
+  //     if (mobile && !showOverlay) {
+  //       event.preventDefault();
+  //       setShowOverlay(!showOverlay);
+  //     }
+  //   },
+  //   [mobile, showOverlay],
+  // );
 
   return (
     <a
@@ -68,8 +68,8 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}
-      href={url}
-      onClick={handleItemClick}
+      // href={url}
+      // onClick={handleItemClick}
       ref={linkRef}
       target="_blank">
       <div className="relative h-full w-full p-4">
@@ -77,7 +77,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
         </div>
-        <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
+        {/* <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" /> */}
       </div>
     </a>
   );
