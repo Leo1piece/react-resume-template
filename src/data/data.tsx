@@ -48,6 +48,7 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
+  MeetUp:'meetup',
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
