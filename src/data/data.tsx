@@ -51,7 +51,7 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Exploring Life with Leo',
+  title: 'Super Leo',
   description: "Hey, I'm Leo, a tech enthusiast and Devops Enginner. Dive into my projects, and connect with me on my Blog and LinkedIn for the latest in the world of technology",
 };
 
@@ -77,18 +77,15 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Marvel Leo`,
+  name: `Super Leo`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Sydney based <strong className="text-stone-100">Devops Engineer</strong>, currently working
+        at <strong className="text-stone-100">Data2App</strong> leverage artificial intelligence and data to transform businesses across industries.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        Work for 10 years in IT industry and in my free time time, you can catch me  in <strong className="text-stone-100">Meetup and technological exchanges</strong>,
       </p>
     </>
   ),
@@ -213,25 +210,26 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'CareerAI',
-    description: 'Our OpenAI-powered career coach is here to helpyour current career or seeking new opportunities.',
+    description: 'Integrated Jenkins & Terraform & Docker & ECS with AWS Developed a web application using Next.js and Node.js with TS that provides powered career coach is here to helpyour current career or seeking new opportunities.',
     url: 'https://careerai.net/',
     image: porfolioImage1,
   },
   {
     title: 'NexusIntelligence ',
-    description: 'NexusIntelligence is a system that utilizes a knowledge base to generate content and answer questions. It is capable of interacting with Enterprise Data and customized AI to provide accurate and relevant responses. The system also allows for precise control over the knowledge base, ensuring in-context and useful information.This is a ToC product for individual users and enterprises as well.',
+    description: 'Designed, architected, and deployed a self-hosted Milvus server, ensuring high availability, scalability, and performance for storing and querying vector data, Configured and managed monitoring and alerting systems using Prometheus, and Grafana to proactively identify and resolve issues related to cluster resources, workload deployments, and infrastructure components',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage2,
   },
   {
     title: 'NexusLegal',
-    description: 'NexusLegal is an efficient co-pilot for lawyers by providing a simplified interface for all legal workflows. It is designed to cater specifically to the legal industry, ensuring that lawyers receive maximum value. It also offers private networking and regional availability options that prioritize data privacy and security. This is a ToB product designed for Australian law firms.',
+    description: 'NexusLegal is an efficient co-pilot for lawyers by providing a simplified interface for all legal workflows.',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage3,
   },
   {
     title: 'NexusIntelligence',
-    description: 'EKS $ AKS',
+    
+    description: 'Migrated containerized applications from AWS EKS to Azure AKS to improve scalability,reliability, and cost efficiency. Conducted and set up a event-driven microservice architecture to deploy the serverless application, ensuring proper integration with the Milvus server and message queue',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage4,
   },
