@@ -295,13 +295,11 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Engineer',
     content: (
       <p>
-        ◆  Setting up CI/CD pipeline using Jenkins, shell scripting, python, docker & bitbucket.
-◆  Reduced infrastructure provisioning time by 50% using Terraform for IAC.
-◆  Integrated DevSecOps practices by automating security checks within the CI/CD pipeline, ensuring code quality, and maintaining compliance with industry security standards.
-◆  Implemented monitoring of EKS clusters using Prometheus and Grafana, and utilized the ELK (Elasticsearch, Logstash, Kibana)  stack for comprehensive logging.
+      ◆  Setting up CI/CD pipeline using Jenkins, shell scripting, python, docker & bitbucket.<br />
+      ◆  Reduced infrastructure provisioning time by 50% using Terraform for IAC.<br />
+      ◆  Integrated DevSecOps practices by automating security checks within the CI/CD pipeline, ensuring code quality, and maintaining compliance with industry security standards.<br />
+      ◆  Implemented monitoring of EKS clusters using Prometheus and Grafana, and utilized the ELK (Elasticsearch, Logstash, Kibana)  stack for comprehensive logging.<br />
       </p>
-      
-      
     ),
     
   },
