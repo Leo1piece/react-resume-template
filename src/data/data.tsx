@@ -175,11 +175,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Docker',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Kubernetes',
-        level: 6,
+        level: 7,
       },
 
     ],
@@ -197,11 +197,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Bash',
-        level: 8,
+        level: 9,
       },
       {
         name: 'Powershell',
-        level: 8,
+        level: 9,
       },
     ],
   },
@@ -212,29 +212,29 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: '',
-    description: '',
-    url: '',
+    title: 'CareerAI',
+    description: 'Our OpenAI-powered career coach is here to helpyour current career or seeking new opportunities.',
+    url: 'https://careerai.net/',
     image: porfolioImage1,
   },
   {
-    title: '',
-    description: '',
-    url: '',
+    title: 'NexusIntelligence ',
+    description: 'NexusIntelligence is a system that utilizes a knowledge base to generate content and answer questions. It is capable of interacting with Enterprise Data and customized AI to provide accurate and relevant responses. The system also allows for precise control over the knowledge base, ensuring in-context and useful information.This is a ToC product for individual users and enterprises as well.',
+    url: 'https://www.data2app.com.au/',
     image: porfolioImage2,
   },
   {
-    title: '',
-    description: '',
-    url: '',
+    title: 'NexusLegal',
+    description: 'NexusLegal is an efficient co-pilot for lawyers by providing a simplified interface for all legal workflows. It is designed to cater specifically to the legal industry, ensuring that lawyers receive maximum value. It also offers private networking and regional availability options that prioritize data privacy and security. This is a ToB product designed for Australian law firms.',
+    url: 'https://www.data2app.com.au/',
     image: porfolioImage3,
   },
-  // {
-  //   title: 'Project title 4',
-  //   description: 'Give a short description of your project here.',
-  //   url: 'https://reactresume.com',
-  //   image: porfolioImage4,
-  // },
+  {
+    title: 'NexusIntelligence',
+    description: 'EKS $ AKS',
+    url: 'https://www.data2app.com.au/',
+    image: porfolioImage4,
+  },
 
 ];
 
