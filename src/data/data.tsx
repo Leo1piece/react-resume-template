@@ -373,7 +373,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'My Blog', Icon: PencilSquareIcon, href: 'https://myblog'},
+  {label: 'My Blog', Icon: PencilSquareIcon, href: 'publishing'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/leo-liuy'},
   // {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
