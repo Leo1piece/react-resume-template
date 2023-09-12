@@ -6,6 +6,8 @@ import {
   FlagIcon,
   MapIcon,
   SparklesIcon,
+  PhoneArrowDownLeftIcon,
+  EnvelopeIcon,
 } from '@heroicons/react/24/outline';
 
 import {
@@ -112,12 +114,12 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `All problems in computer science can be solved by another level of indirection`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Sydney, Nsw', Icon: MapIcon},
+    // {label: 'Age', text: '29', Icon: CalendarIcon},
+    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Bicycle, Basketball, Meetup', Icon: SparklesIcon},
+    {label: 'Phone', text: '0413 518 677', Icon: PhoneArrowDownLeftIcon},
+    {label: 'EnvelopeIcon', text: 'leo.ying.liu@gmail.com', Icon: EnvelopeIcon},
   ],
 };
 
@@ -126,70 +128,80 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'CI/CD',
     skills: [
       {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
+        name: 'Jekins',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Githubaction',
+        level: 8,
+      },
+      
+    ],
+  },
+
+  {
+    name: 'IAC',
+    skills: [
+      {
+        name: 'Terraform',
+        level: 9,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Ansible',
+        level: 7,
       },
+      
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Cloud Platform',
     skills: [
       {
-        name: 'Node.js',
+        name: 'AWS',
+        level: 9,
+      },
+      {
+        name: 'AZURE',
+        level: 7,
+      },
+      
+    ],
+  },
+  {
+    name: 'Docker',
+    skills: [
+      {
+        name: 'Docker',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Kubernetes',
+        level: 6,
       },
-      {
-        name: 'Golang',
-        level: 4,
-      },
+
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Programming language',
     skills: [
       {
-        name: 'React Native',
+        name: 'C#',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'python',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Bash',
+        level: 8,
+      },
+      {
+        name: 'Powershell',
+        level: 8,
       },
     ],
   },
