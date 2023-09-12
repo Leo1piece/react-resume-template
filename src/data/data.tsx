@@ -244,26 +244,26 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const meetupItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
+    title: 'kubernetes',
+    description: '',
     url: '',
     image: meetupImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
+    title: 'azure specialist',
+    description: '',
     url: '',
     image: meetupImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
+    title: 'hashicorp specialist',
+    description: '',
     url: '',
     image: meetupImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
+    title: 'aws workshop',
+    description: '',
     url: '',
     image: meetupImage4,
   },
