@@ -85,7 +85,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">Data2App</strong> leverage artificial intelligence and data to transform businesses across industries.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Work for 10 years in IT industry and in my free time time, you can catch me  in <strong className="text-stone-100">Meetup and technological exchanges</strong>,
+        Work for <strong className="text-stone-100">10 years</strong> in IT industry and in my free time time, you can catch me  in <strong className="text-stone-100">Meetup and technological exchanges</strong>,
       </p>
     </>
   ),
