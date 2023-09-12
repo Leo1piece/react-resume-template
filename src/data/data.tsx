@@ -75,17 +75,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `Super Leo`,
+  name: `Marvel Leo`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Sydney based <strong className="text-stone-100">Devops engineer</strong>, currently working
-        at <strong className="text-stone-100">Data2App</strong> pioneering innovative solutions that
-        leverage artificial intelligence and data to transform businesses across industries.
+        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
+        registrar and site builder.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Work over 10 years in the IT domain. In my free time time, you can catch me in
-        <strong className="text-stone-100">Meetup and technological exchanges</strong><div className=""></div>
+        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
+        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
     </>
   ),
@@ -109,14 +110,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am super Leo`,
+  description: `All problems in computer science can be solved by another level of indirection`,
   aboutItems: [
-  {label: 'Location', text: 'Sydney, NSW', Icon: MapIcon},
-    // {label: 'Age', text: '29', Icon: CalendarIcon},
-    // {label: 'Nationality', text: 'China', Icon: FlagIcon},
-    {label: 'Interests', text: 'Bicycles, Basketball, fishing', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Sydney', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Data2App', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Age', text: '29', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
