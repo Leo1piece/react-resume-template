@@ -212,29 +212,29 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: '',
+    description: '',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: '',
+    description: '',
+    url: '',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: '',
+    description: '',
+    url: '',
     image: porfolioImage3,
   },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
+  // {
+  //   title: 'Project title 4',
+  //   description: 'Give a short description of your project here.',
+  //   url: 'https://reactresume.com',
+  //   image: porfolioImage4,
+  // },
 
 ];
 
@@ -275,42 +275,47 @@ export const meetupItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2012',
+    location: 'Taiyuan University of Technology',
+    title: 'Master of Computer Application',
+    content: <p></p>,
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  // {
+  //   date: 'March 2003',
+  //   location: 'School of Business',
+  //   title: 'What did you study 101',
+  //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Sep 2022 - Present',
+    location: 'Data2App Pty Ltd',
+    title: 'DevOps Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        ◆  Setting up CI/CD pipeline using Jenkins, shell scripting, python, docker & bitbucket.
+◆  Reduced infrastructure provisioning time by 50% using Terraform for IAC.
+◆  Integrated DevSecOps practices by automating security checks within the CI/CD pipeline, ensuring code quality, and maintaining compliance with industry security standards.
+◆  Implemented monitoring of EKS clusters using Prometheus and Grafana, and utilized the ELK (Elasticsearch, Logstash, Kibana)  stack for comprehensive logging.
       </p>
+      
+      
     ),
+    
   },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+  // {
+  //   date: 'March 2007 - February 2010',
+  //   location: 'Garage Startup Studio',
+  //   title: 'Junior bug fixer',
+  //   content: (
+  //     <p>
+  //       Describe work, special projects, notable achievements, what technologies you have been working with, and
+  //       anything else that would be useful for an employer to know.
+  //     </p>
+  //   ),
+  // },
 ];
 
 /**
