@@ -27,8 +27,8 @@ const Portfolio: FC = memo(() => {
                   {/* <ItemOverlay item={item} /> */}
                 </div>
                 <div className="text-black ">
-                  <h2 className="text-center font-semibold">{ item.title}</h2>
-                  <div className="p-1">{ item.description}</div>
+                  <h2 className="text-center font-semibold">{item.title}</h2>
+                  <div className="p-1">{item.description}</div>
                 </div>
               </div>
             );

@@ -3,35 +3,29 @@ import {
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
+  EnvelopeIcon,
   FlagIcon,
   MapIcon,
-  SparklesIcon,
   PhoneArrowDownLeftIcon,
-  EnvelopeIcon,
+  SparklesIcon,
 } from '@heroicons/react/24/outline';
+import {ClipboardDocumentListIcon, PencilSquareIcon} from '@heroicons/react/24/solid';
 
-import {
-  ClipboardDocumentListIcon,
-  PencilSquareIcon
-} from '@heroicons/react/24/solid';
-
-
+import BlogIcon from '../components/Icon/BlogIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
-import BlogIcon from '../components/Icon/BlogIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import meetupImage1 from '../images/meetup/meetup-1.jpg';
 import meetupImage2 from '../images/meetup/meetup-2.jpg';
 import meetupImage3 from '../images/meetup/meetup-3.jpg';
 import meetupImage4 from '../images/meetup/meetup-4.jpg';
-
+import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -52,7 +46,8 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Super Leo',
-  description: "Hey, I'm Leo, a tech enthusiast and Devops Enginner. Dive into my projects, and connect with me on my Blog and LinkedIn for the latest in the world of technology",
+  description:
+    "Hey, I'm Leo, a tech enthusiast and Devops Enginner. Dive into my projects, and connect with me on my Blog and LinkedIn for the latest in the world of technology",
 };
 
 /**
@@ -61,7 +56,7 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  MeetUp:'meetup',
+  MeetUp: 'meetup',
   Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
@@ -81,11 +76,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Sydney based <strong className="text-stone-100">Devops Engineer</strong>, currently working
-        at <strong className="text-stone-100">Data2App</strong> leverage artificial intelligence and data to transform businesses across industries.
+        I'm a Sydney based <strong className="text-stone-100">Devops Engineer</strong>, currently working at{' '}
+        <strong className="text-stone-100">Data2App</strong> leverage artificial intelligence and data to transform
+        businesses across industries.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Work for <strong className="text-stone-100">10 years</strong> in IT industry and in my free time time, you can catch me  in <strong className="text-stone-100">Meetup and technological exchanges</strong>,
+        Work for <strong className="text-stone-100">10 years</strong> in IT industry and in my free time time, you can
+        catch me in <strong className="text-stone-100">Meetup and technological exchanges</strong>,
       </p>
     </>
   ),
@@ -135,7 +132,6 @@ export const skills: SkillGroup[] = [
         name: 'Githubaction',
         level: 8,
       },
-      
     ],
   },
 
@@ -150,7 +146,6 @@ export const skills: SkillGroup[] = [
         name: 'Ansible',
         level: 7,
       },
-      
     ],
   },
   {
@@ -164,7 +159,6 @@ export const skills: SkillGroup[] = [
         name: 'AZURE',
         level: 7,
       },
-      
     ],
   },
   {
@@ -178,7 +172,6 @@ export const skills: SkillGroup[] = [
         name: 'Kubernetes',
         level: 7,
       },
-
     ],
   },
   {
@@ -210,32 +203,34 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'CareerAI',
-    description: 'Integrated Jenkins & Terraform & Docker & ECS with AWS Developed a web application using Next.js and Node.js with TS that provides powered career coach is here to helpyour current career or seeking new opportunities.',
+    description:
+      'Integrated Jenkins & Terraform & Docker & ECS with AWS Developed a web application using Next.js and Node.js with TS that provides powered career coach is here to helpyour current career or seeking new opportunities.',
     url: 'https://careerai.net/',
     image: porfolioImage1,
   },
   {
     title: 'NexusIntelligence ',
-    description: 'Designed, architected, and deployed a self-hosted Milvus server, ensuring high availability, scalability, and performance for storing and querying vector data, Configured and managed monitoring and alerting systems using Prometheus, and Grafana to proactively identify and resolve issues related to cluster resources, workload deployments, and infrastructure components',
+    description:
+      'Designed, architected, and deployed a self-hosted Milvus server, ensuring high availability, scalability, and performance for storing and querying vector data, Configured and managed monitoring and alerting systems using Prometheus, and Grafana to proactively identify and resolve issues related to cluster resources, workload deployments, and infrastructure components',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage2,
   },
   {
     title: 'NexusLegal',
-    description: 'NexusLegal is an efficient co-pilot for lawyers by providing a simplified interface for all legal workflows.',
+    description:
+      'NexusLegal is an efficient co-pilot for lawyers by providing a simplified interface for all legal workflows.',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage3,
   },
   {
     title: 'NexusIntelligence',
-    
-    description: 'Migrated containerized applications from AWS EKS to Azure AKS to improve scalability,reliability, and cost efficiency. Conducted and set up a event-driven microservice architecture to deploy the serverless application, ensuring proper integration with the Milvus server and message queue',
+
+    description:
+      'Migrated containerized applications from AWS EKS to Azure AKS to improve scalability,reliability, and cost efficiency. Conducted and set up a event-driven microservice architecture to deploy the serverless application, ensuring proper integration with the Milvus server and message queue',
     url: 'https://www.data2app.com.au/',
     image: porfolioImage4,
   },
-
 ];
-
 
 /**
  *  Meetup section
@@ -265,7 +260,6 @@ export const meetupItems: PortfolioItem[] = [
     url: '',
     image: meetupImage4,
   },
-
 ];
 
 /**
@@ -293,13 +287,18 @@ export const experience: TimelineItem[] = [
     title: 'DevOps Engineer',
     content: (
       <p>
-      ◆  Setting up CI/CD pipeline using Jenkins, shell scripting, python, docker & bitbucket.<br />
-      ◆  Reduced infrastructure provisioning time by 50% using Terraform for IAC.<br />
-      ◆  Integrated DevSecOps practices by automating security checks within the CI/CD pipeline, ensuring code quality, and maintaining compliance with industry security standards.<br />
-      ◆  Implemented monitoring of EKS clusters using Prometheus and Grafana, and utilized the ELK (Elasticsearch, Logstash, Kibana)  stack for comprehensive logging.<br />
+        ◆ Setting up CI/CD pipeline using Jenkins, shell scripting, python, docker & bitbucket.
+        <br />
+        ◆ Reduced infrastructure provisioning time by 50% using Terraform for IAC.
+        <br />
+        ◆ Integrated DevSecOps practices by automating security checks within the CI/CD pipeline, ensuring code quality,
+        and maintaining compliance with industry security standards.
+        <br />
+        ◆ Implemented monitoring of EKS clusters using Prometheus and Grafana, and utilized the ELK (Elasticsearch,
+        Logstash, Kibana) stack for comprehensive logging.
+        <br />
       </p>
     ),
-    
   },
   // {
   //   date: 'March 2007 - February 2010',
